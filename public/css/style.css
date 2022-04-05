@@ -1,37 +1,106 @@
+/* General styling */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 @font-face {
-    font-family: "Lato";
-    src: url(../fonts/Lato/Lato-Regular.ttf);
+  font-family: "Lato";
+  src: url(../fonts/Lato/Lato-Regular.ttf);
 }
 
 body {
-    font-family: "Lato";
+  font-family: "Lato";
 }
 
 .mwrapper {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
-    width: 66%;
-    margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+  width: 66%;
+  margin: auto;
 }
 
+/* *************** Navigation styling **************** */
 nav {
-    display: flex;
-    background-color: #1a1a1d;
-    padding: 2rem;
-    justify-content: space-evenly;
+  display: flex;
+  background-color: #1a1a1d;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff
+.main-nav {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* **************Hero styling*************** */
+.hero {
+  background-color: #334d5c;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5rem;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 5rem;
+}
+.hero p {
+  font-size: 3rem;
+}
+
+/* ************** Styling for Eclosion/Evolution/Envole *************** */
+.evo {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.evo h3 {
+  text-align: center;
+  width: 30rem;
+  padding: 1.8rem;
+  background-color: #334d5c;
+  font-size: 4rem;
+  color: #fff;
+  justify-self: center;
+  align-self: center;
+}
+
+.wrapper {
+  margin: 4.8rem;
+  gap: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text p {
+  margin: 1rem;
+  font-size: 2.4rem;
+}
+
+/* styling des intersections */
+.interq {
+  background-color: #eae3d6;
+  display: flex;
 }
