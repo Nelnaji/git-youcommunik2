@@ -55,4 +55,103 @@
 }
 
 @media (max-width: 320px) {
+  html {
+    font-size: 52%;
+  }
+  .mwrapper {
+    box-shadow: none;
+  }
+  /************* mobile Navigation styling************/
+  nav {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .logo {
+    display: none;
+  }
+  .main-nav img {
+    display: none;
+  }
+
+  .main-nav {
+    padding: 2rem;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .main-nav a {
+    font-size: 5rem;
+  }
+  /**************Styling du hero*****************/
+  .hero {
+    flex-direction: column;
+    padding: 4rem;
+    gap: 2rem;
+  }
+
+  .hero h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 1.2rem;
+  }
+  .hero p {
+    text-align: center;
+    font-size: 2rem;
+  }
+  /************Evo 320px styling***************/
+
+  .evo {
+    gap: 3rem;
+  }
+  .evo h3 {
+    font-size: 3rem;
+  }
+
+  .wrapper {
+    margin: 1rem;
+    gap: 3rem;
+    flex-direction: column;
+  }
+
+  .text p {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* styling des intersections */
+  .interq {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 6rem;
+  }
+  .inter {
+    gap: 1rem;
+  }
+  .inter p {
+    font-size: 1.8rem;
+  }
+  .inter img {
+    width: 12rem;
+  }
+
+  .interq-last p {
+    font-size: 1.4rem;
+  }
+
+  /*****************Styling footer******************/
+
+  .footer {
+    flex-direction: column;
+  }
+  .footer-img img {
+    width: 7rem;
+  }
+  .footer-nav {
+    gap: 1rem;
+    padding-bottom: 2.4rem;
+  }
+  .footer-img {
+    display: flex;
+    gap: 2rem;
+  }
 }
