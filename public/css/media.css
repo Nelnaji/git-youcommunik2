@@ -1,0 +1,58 @@
+@media (max-width: 1024px) {
+  html {
+    font-size: 58%;
+  }
+  .mwrapper {
+    width: 77%;
+  }
+  /*******Styling de la nav en 1024px******/
+  .main-nav {
+    gap: 2.2rem;
+  }
+  .main-nav a {
+    font-size: 1rem;
+  }
+  .logo img {
+    width: 20rem;
+  }
+  .main-nav img {
+    width: 5rem;
+  }
+
+  /***Styling evo***/
+  .evo {
+    padding: 3rem;
+  }
+  .wrapper {
+    gap: 8rem;
+  }
+  .text p {
+    font-size: 2rem;
+  }
+
+  /******** Styling intersection**********/
+  .interq {
+    gap: 5rem;
+  }
+
+  .inter p {
+    font-size: 1.6rem;
+  }
+
+  /*********Styling du footer*********/
+  .footer-img img {
+    width: 5rem;
+  }
+  .footer-img {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mwrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+}

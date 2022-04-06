@@ -103,4 +103,56 @@ nav {
 .interq {
   background-color: #eae3d6;
   display: flex;
+  padding: 3rem;
+  gap: 10rem;
+  justify-content: center;
+}
+.inter {
+  gap: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inter p {
+  font-size: 2rem;
+}
+.inter img {
+  width: 10rem;
+}
+
+/***************Styling of the footer*****************/
+footer {
+  background-color: #393a3b;
+  position: relative;
+}
+.footer {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-img img {
+  width: 7rem;
+}
+.footer-nav {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-img {
+  display: flex;
+  gap: 2rem;
+}
+footer h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+footer p {
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  color: white;
+  display: block;
 }
